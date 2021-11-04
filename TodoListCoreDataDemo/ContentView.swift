@@ -83,8 +83,7 @@ struct ContentView: View {
                 
                 List{
                     ForEach(allTasks) { task in
-                        Text(task.title ?? "")
-                        
+                        Text(task.title ?? "")                        
                     }
                 }
                 
